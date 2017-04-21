@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @bulletin.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @bulletin.description %>
+</p>
+
+<p>
+  <strong>Post Type:</strong>
+  <%= @bulletin.post_type %>
+</p>
+
+<%= link_to 'Edit', edit_bulletin_path(@bulletin), class: 'btn btn-default' %> |
+<%= link_to 'Back', bulletins_path, class: 'btn btn-default' %>
