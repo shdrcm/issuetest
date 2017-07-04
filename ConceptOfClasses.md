@@ -14,7 +14,7 @@ example : [aoba-examples/src/scenes/](https://github.com/drecom/aoba-examples/tr
 ## シーン構築時の主要クラスについて
 |クラス            |詳細                                              |
 |---              |---                                               |
-|[Scene.js](https://github.com/drecom/aoba.js/blob/master/src/core/Scene.js)         |アプリケーション側でSceneクラスを作る祭に継承するクラス  |
+|[Scene.js](https://github.com/drecom/aoba.js/blob/master/src/core/Scene.js)         |アプリケーション側でSceneクラスを作る際に継承するクラス  |
 |[SceneManager.js](https://github.com/drecom/aoba.js/blob/master/src/core/SceneManager.js)  |Sceneの管理や切り替えを行うためのクラス                |
 |[LoadingScene.js](https://github.com/drecom/aoba.js/blob/master/src/core/LoadingScene.js)  |ロード中画面クラス。必ずSceneManagerに追加される       |
 |[Game.js](https://github.com/drecom/aoba.js/blob/master/src/core/Game.js)          |画面サイズの設定や、Sceneの実行などを行うクラス         |
