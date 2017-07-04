@@ -18,9 +18,9 @@ example : [aoba-examples/src/scenes/](https://github.com/drecom/aoba-examples/tr
 |[SceneManager.js](https://github.com/drecom/aoba.js/blob/master/src/core/SceneManager.js)  |Sceneの管理や切り替えを行うためのクラス                |
 |[LoadingScene.js](https://github.com/drecom/aoba.js/blob/master/src/core/LoadingScene.js)  |ロード中画面クラス。必ずSceneManagerに追加される       |
 |[Game.js](https://github.com/drecom/aoba.js/blob/master/src/core/Game.js)          |画面サイズの設定や、Sceneの実行などを行うクラス         |
-|**[Container.js]**(https://github.com/drecom/aoba.js/blob/master/src/pixi/core/display/Container.js)    |オブジェクトのコレクションクラス。aoba.jsでは、位置や大きさの変更など、<br>コンテナを画面上の一つのオブジェクトとして扱うための機能を追加している    |
-|**[Sprite.js]**(https://github.com/drecom/aoba.js/blob/master/src/pixi/core/sprites/Sprite.js)       |テクスチャを扱うオブジェクトクラス。aoba.jsでは、コンテナクラスと<br>同様の機能を追加している|
-|**[Text.js]**(https://github.com/drecom/aoba.js/blob/master/src/pixi/core/text/Text.js)         |テキストを表示するクラス。aoba.jsでは、タイプライターのように<br>テキストを一文字ずつ表示する機能を追加している        |
+|[*Container.js](https://github.com/drecom/aoba.js/blob/master/src/pixi/core/display/Container.js)    |オブジェクトのコレクションクラス。aoba.jsでは、位置や大きさの変更など、<br>コンテナを画面上の一つのオブジェクトとして扱うための機能を追加している    |
+|[Sprite.js](https://github.com/drecom/aoba.js/blob/master/src/pixi/core/sprites/Sprite.js)       |テクスチャを扱うオブジェクトクラス。aoba.jsでは、コンテナクラスと<br>同様の機能を追加している|
+|[Text.js](https://github.com/drecom/aoba.js/blob/master/src/pixi/core/text/Text.js)         |テキストを表示するクラス。aoba.jsでは、タイプライターのように<br>テキストを一文字ずつ表示する機能を追加している        |
 *pixi.jsの同名クラスを継承しているクラス
 
 ## ルーティングについて
